@@ -1,5 +1,5 @@
 # vpncheck
-A proof-of-concept tool written to gather forensic information from VPN clients (ProtonVPN and OVPN). After executing, output is provided which will generate a timeline of VPN connection/disconnection events using the [Timeline](https://github.com/scissortails/Timeline]-tool).
+A proof-of-concept tool written to gather forensic information from VPN clients (ProtonVPN and OVPN). After executing, output is provided which will generate a timeline of VPN connection/disconnection events using the [Timeline](https://github.com/scissortails/Timeline-tool).
 
 ## Getting started
 vpncheck has one prerequisite.
@@ -37,7 +37,7 @@ Once complete, a JSON string is generated, looking like this (non-beautified).
     ]
 }
 ```
- Write this to a file (non-beautified is fine) and run the (Timeline)[https://github.com/scissortails/Timeline]-tool] as follows.
+ Write this to a file (non-beautified is fine) and run the [Timeline](https://github.com/scissortails/Timeline-tool) as follows.
  `python make_timeline.py file.json > out.svg`
  Please see the above link for more information on the Timeline tool.
 
