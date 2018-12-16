@@ -1,5 +1,5 @@
 # vpncheck
-A proof-of-concept tool written to gather forensic information from VPN clients (ProtonVPN and OVPN). After executing, output is provided which will generate a timeline of VPN connection/disconnection events using the (Timeline)[https://github.com/scissortails/Timeline]-tool].
+A proof-of-concept tool written to gather forensic information from VPN clients (ProtonVPN and OVPN). After executing, output is provided which will generate a timeline of VPN connection/disconnection events using the [Timeline](https://github.com/scissortails/Timeline]-tool).
 
 ## Getting started
 vpncheck has one prerequisite.
